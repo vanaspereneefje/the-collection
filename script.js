@@ -48,15 +48,31 @@ collection.forEach((element) => {
     summary.appendChild(summaryNode);
     summary.classList.add("text");
 
+    //add div for buttons
+    const buttonDiv = document.createElement("div");
+    buttonDiv.classList.add("button-div");
+    containerDiv.appendChild(buttonDiv);
+  
+
     //add link for every year
     let link = document.createElement("a");
     let button = document.createElement("button");
-    containerDiv.appendChild(link);
+    buttonDiv.appendChild(link);
     link.appendChild(button);
     let linkNode = document.createTextNode("link");
     button.appendChild(linkNode);
     link.href = element.link;
     link.classList.add("link");
+
+    //add link to detail page
+    let detailLink = document.createElement("a");
+    let detailButton = document.createElement("button");
+    buttonDiv.appendChild(detailLink);
+    detailLink.appendChild(detailButton);
+    let detailLinkNode = document.createTextNode("Details");
+    detailButton.appendChild(detailLinkNode);
+    detailLink.href = "./detail.html";
+    detailLink.classList.add("detailButton");
 });
 
 // getting all required elements
@@ -69,7 +85,7 @@ let webLink;
 
 // if user press any key and release
 inputBox.onkeyup = (e) => {
-  let userData = e.target.value; //user enetered data
+  let userData = e.target.value; //user entered data
   let emptyArray = [];
   if (userData) {
     icon.onclick = () => {

@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 body {
     background-image: url('./Images/aesthetic-ghibli.jpg');
     background-repeat: no-repeat;
@@ -71,7 +76,6 @@ main {
 }
 
 .link {
-    margin-bottom: 50px;
     background-color: green;
 
 }
@@ -90,15 +94,22 @@ main {
     color: green;
 }
 
+.button-div {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  gap: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 button {
     font-weight: bold;
-    width: 50px;
+    width: 75px;
     height: 30px;
     background-color: rgb(111, 172, 89);
     border: none;
-    position: absolute;
-    right:    125px;
-    bottom:   30px;
     box-shadow: 0 0 5px -1px rgb(24, 36, 18);
 }
 
@@ -108,12 +119,6 @@ button:hover {
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
-
-
-* {
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
   
   ::selection {
     color: #fff;
