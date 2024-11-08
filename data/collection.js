@@ -1,5 +1,6 @@
 const collection = [
     {
+        id: 0,
         picture: './Images/howlscastle.jpg',
         name: 'Howls Moving Castle',
         director: 'Hayao Miyazaki',
@@ -8,6 +9,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=iwROgK94zcM'
     },
     {
+        id: 1,
         picture: './Images/when-marnie-was-there.jpg',
         name: 'When Marnie Was There',
         director: 'Hiromasa Yonebayashi',
@@ -16,6 +18,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=jjmrxqcQdYg'
       },
       {
+        id: 2,
         picture: './Images/the-wind-rises.jpg',
         name: 'The Wind Rises',
         director: 'Hayao Miyazaki',
@@ -24,6 +27,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=RzSpDgiF5y8'
       },
       {
+        id: 3,
         picture: './Images/nausicaa.jpg',
         name: 'Nausicaä of the Valley of the Wind',
         director: 'Hayao Miyazaki',
@@ -32,6 +36,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=6zhLBe319KE'
       },
       {
+        id: 4,
         picture: './Images/Totoro.jpg',
         name: 'My Neighbor Totoro',
         director: 'Hayao Miyazaki',
@@ -40,6 +45,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=6zhLBe319KE'
     },
     {
+        id: 5,
         picture: './Images/arrietty.jpg',
         name: 'Arrietty',
         director: 'Hiromasa Yonebayashi',
@@ -48,6 +54,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=6zhLBe319KE'
     },
     {
+        id: 6,
         picture: './Images/kikis-delivery-service.jpg',
         name: 'Kikis Delivery Service',
         director: 'Hayao Miyazaki',
@@ -56,6 +63,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=6zhLBe319KE'
     },
     {
+        id: 7,
         picture: './Images/Mononoke.jpg',
         name: 'Princess Mononoke',
         director: 'Hayao Miyazaki',
@@ -64,6 +72,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=6zhLBe319KE'
     },
     {
+        id: 8,
         picture: './Images/princess-kaguya.jpg',
         name: 'The Tale of the Princess Kaguya',
         director: 'Isao Takahata',
@@ -72,6 +81,7 @@ const collection = [
         link: 'https://www.youtube.com/watch?v=6zhLBe319KE'
     },
     {
+        id: 9,
         picture: './Images/spirited-away.jpg',
         name: 'Spirited Away',
         director: 'Hayao Miyazaki',
