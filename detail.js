@@ -33,9 +33,9 @@ let releaseNode = document.createTextNode(collection[articleId].releaseYear);
 director.classList.add("release");
 release.appendChild(releaseNode);
 
-let summary = document.createElement("p");
-containerDiv.appendChild(summary);
-let summaryNode = document.createTextNode(collection[articleId].plot);
-summary.appendChild(summaryNode);
-summary.classList.add("text");
+let plotSummary = collection[articleId].plot;
+let plotElement = document.createElement('div');
+plotElement.innerHTML = plotSummary;
+plotElement.classList.add("plot");
+containerDiv.appendChild(plotElement);
 });
