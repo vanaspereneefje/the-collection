@@ -38,4 +38,10 @@ let plotElement = document.createElement('div');
 plotElement.innerHTML = plotSummary;
 plotElement.classList.add("plot");
 containerDiv.appendChild(plotElement);
+
+let source = document.createElement("p");
+containerDiv.appendChild(source);
+source.classList.add("source");
+source.textContent = "source: Wikipedia";
+
 });
