@@ -37,10 +37,14 @@ header {
 
 .image {
     width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.director {
+    color: green;
 }
 
 .plot {
-    /*margin-left: 50px;*/
-    /*margin-right: 50px;*/
     width: 80%;
   }

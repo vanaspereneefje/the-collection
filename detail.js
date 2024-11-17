@@ -23,15 +23,15 @@ picture.classList.add("image");
 
 let director = document.createElement("p");
 containerDiv.appendChild(director);
-let directorNode = document.createTextNode(collection[articleId].director);
+let directorNode = document.createTextNode(`Director: ${collection[articleId].director}`);
 director.appendChild(directorNode);
 director.classList.add("director");
 
 let release = document.createElement("p");
 containerDiv.appendChild(release);
-let releaseNode = document.createTextNode(collection[articleId].releaseYear);
-director.classList.add("release");
+let releaseNode = document.createTextNode(`Release year: ${collection[articleId].releaseYear}`);
 release.appendChild(releaseNode);
+release.classList.add("release");
 
 let plotSummary = collection[articleId].plot;
 let plotElement = document.createElement('div');
