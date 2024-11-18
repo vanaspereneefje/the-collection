@@ -64,15 +64,6 @@ collection.forEach((element) => {
     link.classList.add("link");
 
     //add link to detail page
-    /*let detailLink = document.createElement("a");
-    let detailButton = document.createElement("button");
-    buttonDiv.appendChild(detailLink);
-    detailLink.appendChild(detailButton);
-    let detailLinkNode = document.createTextNode("Details");
-    detailButton.appendChild(detailLinkNode);
-    detailLink.href = "./detail.html";
-    detailLink.classList.add("detailButton");*/
-
     const detailButton = document.createElement("button");
     detailButton.textContent = "Details";
     detailButton.classList.add("detailButton");
